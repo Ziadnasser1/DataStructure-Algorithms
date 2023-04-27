@@ -63,7 +63,7 @@ int main() {
 
     // Test clear function
     myList.clear();
-    myList.print(); // expected output: (empty)
+    myList.print(); // expected output: (List is empty)
 
     return 0;
 }
