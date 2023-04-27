@@ -1,0 +1,3 @@
+D:/DataStructureRepo/Data Structure Codes/SortingAlgorithms/cmake-build-debug/CMakeFiles/SortingAlgorithms.dir
+D:/DataStructureRepo/Data Structure Codes/SortingAlgorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/DataStructureRepo/Data Structure Codes/SortingAlgorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
