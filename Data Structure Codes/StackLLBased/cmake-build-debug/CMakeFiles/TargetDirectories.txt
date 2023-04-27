@@ -1,0 +1,3 @@
+D:/DataStructureRepo/Data Structure Codes/StackLLBased/cmake-build-debug/CMakeFiles/StackLLBased.dir
+D:/DataStructureRepo/Data Structure Codes/StackLLBased/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/DataStructureRepo/Data Structure Codes/StackLLBased/cmake-build-debug/CMakeFiles/rebuild_cache.dir
