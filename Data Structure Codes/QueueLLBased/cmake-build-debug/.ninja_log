@@ -1,0 +1,6 @@
+# ninja log v5
+0	544	7043131682344608	CMakeFiles/QueueLLBased.dir/main.cpp.obj	568aab02ec975317
+6	594	7043131682853254	CMakeFiles/QueueLLBased.dir/Queue.cpp.obj	24c1bfbfe97b7141
+595	771	7043131684578823	QueueLLBased.exe	ae1bddb1c823965
+4	490	7043133917447166	CMakeFiles/QueueLLBased.dir/main.cpp.obj	568aab02ec975317
+491	684	7043133919322190	QueueLLBased.exe	ae1bddb1c823965
