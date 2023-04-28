@@ -14,11 +14,13 @@ private:
         elementType item;
         Node* next;
     };
+    typedef Node* NodePtr;
     Node* first;
     Node* last;
     int length;
 public:
     SingleLinkedList();
+    Node* getFirst();
     void insertAtHead(elementType element);
     void insertAtTail(elementType element);
     void insertAt(elementType element, int index);
@@ -34,6 +36,7 @@ public:
     int SinglelinkedListSize();
     void clear();
     void print();
+    void combineNodesBetweenZeros();
 };
 
 

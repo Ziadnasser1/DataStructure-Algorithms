@@ -8,6 +8,11 @@
 using namespace std;
 
 template <typename elementType>
+typename SingleLinkedList<elementType>::Node* SingleLinkedList<elementType>::getFirst() {
+    return first;
+}
+
+template <typename elementType>
 SingleLinkedList<elementType>::SingleLinkedList() {
     first = last = nullptr;
     length = 0;
@@ -188,8 +193,8 @@ elementType SingleLinkedList<elementType>::retrieveAt(int index) {
         cout << "List is empty!";
         return elementType();
     }
-
     Node* current = first;
+
     for (int i = 0; i < index; ++i) {
         current = current->next;
     }
@@ -198,7 +203,7 @@ elementType SingleLinkedList<elementType>::retrieveAt(int index) {
 
 template<typename elementType>
 void SingleLinkedList<elementType>::removeAt(int index) {
-    if(index <0 || index>length){
+    if(index <0 || index>=length){
         cout<<"out of range!";
     }
     else if(index==0){
@@ -217,5 +222,3 @@ void SingleLinkedList<elementType>::removeAt(int index) {
     }
 }
 template class SingleLinkedList<int>;
-template class SingleLinkedList<double>;
-template class SingleLinkedList<string>;
