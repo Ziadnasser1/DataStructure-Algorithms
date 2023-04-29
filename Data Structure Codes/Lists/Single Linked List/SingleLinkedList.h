@@ -5,7 +5,7 @@
 #ifndef SINGLE_LINKED_LIST_SINGLELINKEDLIST_H
 #define SINGLE_LINKED_LIST_SINGLELINKEDLIST_H
 #include <iostream>
-
+#include <vector>
 using namespace std;
 template <typename elementType>
 class SingleLinkedList {
@@ -37,6 +37,7 @@ public:
     void clear();
     void print();
     void combineNodesBetweenZeros();
+    SingleLinkedList<elementType> mergeKLists(std::vector<SingleLinkedList<elementType>> lists);
 };
 
 
