@@ -1,0 +1,11 @@
+# ninja log v5
+2	747	7045908231120274	CMakeFiles/Infix_to_postfix.dir/main.cpp.obj	ccd5fc802556eba1
+750	990	7045908233462283	Infix_to_postfix.exe	11fc843e0a7dd51c
+5	597	7045909353140440	CMakeFiles/Infix_to_postfix.dir/main.cpp.obj	ccd5fc802556eba1
+597	751	7045909354641681	Infix_to_postfix.exe	11fc843e0a7dd51c
+5	577	7045910562263066	CMakeFiles/Infix_to_postfix.dir/main.cpp.obj	ccd5fc802556eba1
+578	741	7045910563848497	Infix_to_postfix.exe	11fc843e0a7dd51c
+5	547	7045911972808276	CMakeFiles/Infix_to_postfix.dir/main.cpp.obj	ccd5fc802556eba1
+548	716	7045911974453959	Infix_to_postfix.exe	11fc843e0a7dd51c
+5	543	7045912805599024	CMakeFiles/Infix_to_postfix.dir/main.cpp.obj	ccd5fc802556eba1
+544	713	7045912807244940	Infix_to_postfix.exe	11fc843e0a7dd51c

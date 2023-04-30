@@ -25,6 +25,9 @@ public:
     int stackSize();
     void clear();
     void print();
+    string infixToPostfix(string infix);
+    int precedence(char c);
+    bool isOperator(char c);
 };
 
 template<typename elementType>
