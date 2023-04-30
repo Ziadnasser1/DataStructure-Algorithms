@@ -28,6 +28,7 @@ public:
     string infixToPostfix(string infix);
     int precedence(char c);
     bool isOperator(char c);
+    int longestValidParentheses(string s);
 };
 
 template<typename elementType>

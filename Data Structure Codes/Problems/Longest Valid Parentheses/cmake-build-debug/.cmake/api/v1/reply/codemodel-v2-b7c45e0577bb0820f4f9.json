@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Longest_Valid_Parentheses",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Longest_Valid_Parentheses::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Longest_Valid_Parentheses-Debug-3559d258f65a8a5ecff7.json",
+					"name" : "Longest_Valid_Parentheses",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/DataStructureRepo/Data Structure Codes/Problems/Longest Valid Parentheses/cmake-build-debug",
+		"source" : "D:/DataStructureRepo/Data Structure Codes/Problems/Longest Valid Parentheses"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
