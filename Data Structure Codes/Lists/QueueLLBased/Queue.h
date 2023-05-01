@@ -29,6 +29,7 @@ public:
     void clear();
     int Size();
     void generateBinaryNumbers(int n);
+    void sortQueue();
 };
 
 

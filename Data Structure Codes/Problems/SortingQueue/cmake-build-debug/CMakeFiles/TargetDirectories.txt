@@ -1,0 +1,3 @@
+D:/DataStructureRepo/Data Structure Codes/Problems/SortingQueue/cmake-build-debug/CMakeFiles/SortingQueue.dir
+D:/DataStructureRepo/Data Structure Codes/Problems/SortingQueue/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/DataStructureRepo/Data Structure Codes/Problems/SortingQueue/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,25 @@
+# ninja log v5
+0	740	7046470459556946	CMakeFiles/SortingQueue.dir/main.cpp.obj	e6f3dde7accecc04
+748	980	7046470461992802	SortingQueue.exe	4ea5993789b58f05
+19	658	7046472262768440	CMakeFiles/SortingQueue.dir/main.cpp.obj	e6f3dde7accecc04
+658	952	7046472265591215	SortingQueue.exe	4ea5993789b58f05
+5	622	7046473112518961	CMakeFiles/SortingQueue.dir/main.cpp.obj	e6f3dde7accecc04
+623	830	7046473114542089	SortingQueue.exe	4ea5993789b58f05
+5	627	7046473576348416	CMakeFiles/SortingQueue.dir/main.cpp.obj	e6f3dde7accecc04
+628	811	7046473578143993	SortingQueue.exe	4ea5993789b58f05
+4	717	7046474482803607	CMakeFiles/SortingQueue.dir/main.cpp.obj	e6f3dde7accecc04
+718	864	7046474484229782	SortingQueue.exe	4ea5993789b58f05
+4	836	7046475110777376	CMakeFiles/SortingQueue.dir/main.cpp.obj	e6f3dde7accecc04
+845	1188	7046475114337511	SortingQueue.exe	4ea5993789b58f05
+7	600	7046475600793254	CMakeFiles/SortingQueue.dir/main.cpp.obj	e6f3dde7accecc04
+601	779	7046475602538590	SortingQueue.exe	4ea5993789b58f05
+5	551	7046476058974238	CMakeFiles/SortingQueue.dir/main.cpp.obj	e6f3dde7accecc04
+552	713	7046476060569963	SortingQueue.exe	4ea5993789b58f05
+4	631	7046477054162415	CMakeFiles/SortingQueue.dir/main.cpp.obj	e6f3dde7accecc04
+632	794	7046477055758139	SortingQueue.exe	4ea5993789b58f05
+6	778	7046477547311813	CMakeFiles/SortingQueue.dir/main.cpp.obj	e6f3dde7accecc04
+778	989	7046477549376627	SortingQueue.exe	4ea5993789b58f05
+10	644	7046479253726771	CMakeFiles/SortingQueue.dir/main.cpp.obj	e6f3dde7accecc04
+645	878	7046479256025418	SortingQueue.exe	4ea5993789b58f05
+6	847	7046484269139554	CMakeFiles/SortingQueue.dir/main.cpp.obj	e6f3dde7accecc04
+847	1030	7046484270902981	SortingQueue.exe	4ea5993789b58f05
