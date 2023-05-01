@@ -28,6 +28,7 @@ public:
     void print();
     void clear();
     int Size();
+    void generateBinaryNumbers(int n);
 };
 
 

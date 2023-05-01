@@ -53,7 +53,7 @@ elementType Queue<elementType>::front() {
     if(isEmpty())
     {
         cout<<"queue is Empty!"<<endl;
-        return -1;
+        return elementType();
     }
     else{
         return frontPtr->item;
@@ -65,7 +65,7 @@ elementType Queue<elementType>::rear() {
     if(isEmpty())
     {
         cout<<"queue is Empty!"<<endl;
-        return -1;
+        return elementType();
     }
     else{
         return rearPtr->item;
@@ -99,5 +99,5 @@ int Queue<elementType>::Size() {
 }
 
 template class Queue<int>;
-template class Queue<float>;
+template class Queue<string>;
 template class Queue<double>;
