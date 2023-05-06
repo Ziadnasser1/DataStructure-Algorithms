@@ -1,0 +1,20 @@
+# ninja log v5
+15	771	7050375050347433	CMakeFiles/_BST_BinarySearchTree.dir/main.cpp.obj	1a0e48d50d0bb843
+1	939	7050375052035900	CMakeFiles/_BST_BinarySearchTree.dir/BinarySearchTree.cpp.obj	c11c6ab692ef30b7
+939	1223	7050375054797186	_BST_BinarySearchTree.exe	ae8d423dad37da6d
+5	690	7050378663934650	CMakeFiles/_BST_BinarySearchTree.dir/BinarySearchTree.cpp.obj	c11c6ab692ef30b7
+691	871	7050378665680942	_BST_BinarySearchTree.exe	ae8d423dad37da6d
+4	650	7050386353293631	CMakeFiles/_BST_BinarySearchTree.dir/main.cpp.obj	1a0e48d50d0bb843
+11	834	7050386355128716	CMakeFiles/_BST_BinarySearchTree.dir/BinarySearchTree.cpp.obj	c11c6ab692ef30b7
+835	1032	7050386357034814	_BST_BinarySearchTree.exe	ae8d423dad37da6d
+14	915	7050407043610569	CMakeFiles/_BST_BinarySearchTree.dir/main.cpp.obj	1a0e48d50d0bb843
+5	1040	7050407044867216	CMakeFiles/_BST_BinarySearchTree.dir/BinarySearchTree.cpp.obj	c11c6ab692ef30b7
+1041	1274	7050407047138805	_BST_BinarySearchTree.exe	ae8d423dad37da6d
+6	575	7050408494940297	CMakeFiles/_BST_BinarySearchTree.dir/main.cpp.obj	1a0e48d50d0bb843
+576	787	7050408497004771	_BST_BinarySearchTree.exe	ae8d423dad37da6d
+5	701	7050412434947579	CMakeFiles/_BST_BinarySearchTree.dir/BinarySearchTree.cpp.obj	c11c6ab692ef30b7
+702	888	7050412436762719	_BST_BinarySearchTree.exe	ae8d423dad37da6d
+5	591	7050412787782686	CMakeFiles/_BST_BinarySearchTree.dir/main.cpp.obj	1a0e48d50d0bb843
+591	760	7050412789428615	_BST_BinarySearchTree.exe	ae8d423dad37da6d
+5	614	7050413041322012	CMakeFiles/_BST_BinarySearchTree.dir/main.cpp.obj	1a0e48d50d0bb843
+614	825	7050413043386472	_BST_BinarySearchTree.exe	ae8d423dad37da6d
