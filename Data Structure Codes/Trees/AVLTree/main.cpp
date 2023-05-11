@@ -13,7 +13,7 @@ int main() {
     std::cout << std::endl;
 
     tree.remove(7);
-    tree.remove(5);
+//    tree.remove(5);
 
     std::cout << "Inorder traversal after removing 30: ";
     tree.printInorder(tree.getRoot());
