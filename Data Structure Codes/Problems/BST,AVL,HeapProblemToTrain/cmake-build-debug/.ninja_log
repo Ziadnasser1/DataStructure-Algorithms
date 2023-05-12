@@ -1,0 +1,21 @@
+# ninja log v5
+1142	1330	7056212023817597	BST_AVL_HeapProblemToTrain.exe	9de005227cbbb38e
+10	1141	7056212021982160	CMakeFiles/BST_AVL_HeapProblemToTrain.dir/BSTree.cpp.obj	7d1f50abf8ae9cfd
+8	981	7056208595888063	CMakeFiles/BST_AVL_HeapProblemToTrain.dir/main.cpp.obj	1511bf8d78ea5238
+8	1166	7056213043738856	CMakeFiles/BST_AVL_HeapProblemToTrain.dir/BSTree.cpp.obj	7d1f50abf8ae9cfd
+1167	1512	7056213047201902	BST_AVL_HeapProblemToTrain.exe	9de005227cbbb38e
+7	1071	7056219142594348	CMakeFiles/BST_AVL_HeapProblemToTrain.dir/main.cpp.obj	1511bf8d78ea5238
+1072	1278	7056219144618527	BST_AVL_HeapProblemToTrain.exe	9de005227cbbb38e
+5	846	7056221202858929	CMakeFiles/BST_AVL_HeapProblemToTrain.dir/main.cpp.obj	1511bf8d78ea5238
+847	1041	7056221204773069	BST_AVL_HeapProblemToTrain.exe	9de005227cbbb38e
+9	867	7056221523774628	CMakeFiles/BST_AVL_HeapProblemToTrain.dir/main.cpp.obj	1511bf8d78ea5238
+867	1196	7056221527016291	BST_AVL_HeapProblemToTrain.exe	9de005227cbbb38e
+11	794	7056222563694702	CMakeFiles/BST_AVL_HeapProblemToTrain.dir/main.cpp.obj	1511bf8d78ea5238
+5	939	7056222565150485	CMakeFiles/BST_AVL_HeapProblemToTrain.dir/BSTree.cpp.obj	7d1f50abf8ae9cfd
+939	1312	7056222568836902	BST_AVL_HeapProblemToTrain.exe	9de005227cbbb38e
+5	952	7056223148432136	CMakeFiles/BST_AVL_HeapProblemToTrain.dir/BSTree.cpp.obj	7d1f50abf8ae9cfd
+952	1148	7056223150337183	BST_AVL_HeapProblemToTrain.exe	9de005227cbbb38e
+5	1092	7056224515896266	CMakeFiles/BST_AVL_HeapProblemToTrain.dir/BSTree.cpp.obj	7d1f50abf8ae9cfd
+1092	1387	7056224518680398	BST_AVL_HeapProblemToTrain.exe	9de005227cbbb38e
+6	944	7056225260867403	CMakeFiles/BST_AVL_HeapProblemToTrain.dir/BSTree.cpp.obj	7d1f50abf8ae9cfd
+946	1359	7056225265095767	BST_AVL_HeapProblemToTrain.exe	9de005227cbbb38e
