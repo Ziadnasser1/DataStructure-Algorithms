@@ -15,6 +15,9 @@ Node* BST::insert(Node*&  r, int id, const string& name, double GPA, const strin
     } else if (id > r->id) {
         r->right = insert(r->right, id, name, GPA, department);
     }
+    cout<<"---------------"<<endl;
+    cout<<r->id<<endl;
+    cout<<"---------------"<<endl;
     return r;
 }
 
