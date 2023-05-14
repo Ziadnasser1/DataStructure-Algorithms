@@ -3,4 +3,4 @@ project(BST_AVL_HeapProblemToTrain)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(BST_AVL_HeapProblemToTrain main.cpp BSTree.h BSTree.cpp AVLTree.h AVLTree.cpp)
+add_executable(BST_AVL_HeapProblemToTrain main.cpp BSTree.h BSTree.cpp AVLTree.h AVLTree.cpp MaxHeap.h MaxHeap.cpp MinHeap.h MinHeap.cpp)

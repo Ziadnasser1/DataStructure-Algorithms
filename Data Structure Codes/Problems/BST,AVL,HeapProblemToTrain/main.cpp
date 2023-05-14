@@ -1,6 +1,110 @@
 #include <iostream>
 #include "BSTree.h"
 #include "AVLTree.h"
+#include "MaxHeap.h"
+#include "MinHeap.h"
+
+void MaxMinHeapMenu(bool isMax){
+    if(isMax){
+        MaxHeap maxHeap(10);
+        maxHeap.loadDataFromFile("StudentsData.txt");
+        int choice=0;
+        cout<<"You are Using MaxHEap DataStructure to Use the following functions: "<<endl;
+        cout<<"---------------------------------"<<endl;
+        cout<<"Choose one of the following options"<<endl;
+        cout<<"1. Add student"<<endl;
+        cout<<"2. Print all(sorted by gpa)"<<endl;
+        cout<<"3. return to main menu"<<endl;
+        cout<<"---------------------------------"<<endl;
+        while(true){
+            cout<<"Enter your choice: ";
+            cin>>choice;
+            cin.ignore();
+            if(choice == 1){
+                int id;
+                double GPA;
+                string name, department;
+                cout<<"id: ";
+                cout<<"id: ";
+                cin>>id;
+                cin.ignore();
+                while(id < 1 || id > 100){
+                    cout<<"please enter id in range 1-100: ";
+                    cin>>id;
+                    cin.ignore();
+                }
+                cout<<"name: ";
+                getline(cin, name);
+                cout<<"GPA: ";
+                cin>>GPA;
+                cin.ignore();
+                cout<<"department: ";
+                getline(cin, department);
+                maxHeap.insertStudentMX(id,name,GPA,department);
+                cout<<"The  student is added"<<endl;
+            }else if(choice == 2){
+                maxHeap.heapSort();
+                maxHeap.printHeap();
+                maxHeap.printDepartmentReport();
+            }
+            else if(choice == 3){
+                break;
+            }else{
+                cout<<"invalid option!"<<endl;
+            }
+        }
+
+    }else{
+        MinHeap minHeap(10);
+        minHeap.loadDataFromFile("StudentsData.txt");
+        int choice=0;
+        cout<<"You are Using MinHeap DataStructure to Use the following functions: "<<endl;
+        cout<<"---------------------------------"<<endl;
+        cout<<"Choose one of the following options"<<endl;
+        cout<<"1. Add student"<<endl;
+        cout<<"2. Print all(sorted by gpa)"<<endl;
+        cout<<"3. return to main menu"<<endl;
+        cout<<"---------------------------------"<<endl;
+        while(true){
+            cout<<"Enter your choice: ";
+            cin>>choice;
+            cin.ignore();
+            if(choice == 1){
+                int id;
+                double GPA;
+                string name, department;
+                cout<<"id: ";
+                cin>>id;
+                cin.ignore();
+                while(id < 1 || id > 100){
+                    cout<<"please enter id in range 1-100: ";
+                    cin>>id;
+                    cin.ignore();
+                }
+                cout<<"name: ";
+                getline(cin, name);
+                cout<<"GPA: ";
+                cin>>GPA;
+                cin.ignore();
+                cout<<"department: ";
+                getline(cin, department);
+                minHeap.insertStudent(id,name,GPA,department);
+                cout<<"The student is added"<<endl;
+            }else if(choice == 2){
+                minHeap.heapSort();
+                minHeap.printHeap();
+                minHeap.printDepartmentReport();
+            }
+            else if(choice == 3){
+                break;
+            }else{
+                cout<<"invalid option!"<<endl;
+            }
+        }
+
+
+    }
+}
 
 void BstAvlMenu(bool isBST){
     if(isBST){
@@ -177,6 +281,14 @@ int main() {
                 BstAvlMenu(false);
                 break;
             }//case 2
+            case 3:{
+                MaxMinHeapMenu(false);
+                break;
+            }//case 3
+            case 4:{
+                MaxMinHeapMenu(true);
+                break;
+            }
             case 5:{
                 cout<<"Good bye!"<<endl;
                 isOk = false;
