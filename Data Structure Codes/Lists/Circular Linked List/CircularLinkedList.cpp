@@ -174,6 +174,7 @@ template<typename elementType>
 bool CircularLinkedList<elementType>::isItemAtEqual(elementType element, int index) {
     if(index <0 || index>=length){
         cout<<"out of range!";
+        return false;
     }else{
         Node* current = first;
         for (int i = 0; i < index; ++i) {
@@ -215,6 +216,7 @@ template<typename elementType>
 elementType CircularLinkedList<elementType>::retrieveAt(int index) {
     if(index <0 || index>=length){
         cout<<"out of range!";
+        return elementType();
     }else{
         Node* current = first;
         for (int i = 0; i < index; ++i) {

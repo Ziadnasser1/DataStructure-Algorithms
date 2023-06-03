@@ -22,7 +22,10 @@ void Stack<elementType>::push(elementType newItem) {
 
 template<typename elementType>
 elementType Stack<elementType>::pop() {
-    if(isEmpty())cout<<"stack is Empty"<<endl;
+    if(isEmpty()){
+        cout<<"stack is Empty"<<endl;
+        return elementType();
+    }
     else{
         elementType topElementValue = topPtr->item;
         StackNode* tmp = topPtr;
@@ -36,7 +39,11 @@ elementType Stack<elementType>::pop() {
 
 template<typename elementType>
 elementType Stack<elementType>::top() {
-    if(isEmpty())cout<<"stack is Empty"<<endl;
+    if(isEmpty())
+    {
+        cout<<"stack is Empty"<<endl;
+        return elementType();
+    }
     else{
         return topPtr->item;
     }
