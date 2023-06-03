@@ -7,6 +7,7 @@
       "args": [
         "-fdiagnostics-color=always",
         "-g",
+        "-std=c++17",
         "${file}",
         "${workspaceFolder}\\Lists\\Single Linked List\\singlelinkedlist.cpp",
         "${workspaceFolder}\\Lists\\StackLLBased\\stackllbased.cpp",
@@ -14,6 +15,11 @@
         "${workspaceFolder}\\Lists\\Doubly Linked List\\doubly linked list.cpp",
         "${workspaceFolder}\\Lists\\Circular Linked List\\circularlinkedlist.cpp",
         "${workspaceFolder}\\Lists\\Array Based List\\arraybasedlist.cpp",
+        "${workspaceFolder}\\SortingAlgorithms\\sortingalgorithms.cpp",
+        "${workspaceFolder}\\Trees\\(BST)BinarySearchTree\\binarysearchtree.cpp",
+        "${workspaceFolder}\\Trees\\AVLTree\\avltree.cpp",
+        "${workspaceFolder}\\Trees\\MaxHeap\\maxheap.cpp",
+        "${workspaceFolder}\\Trees\\MinHeap\\minheap.cpp",
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe"
       ],

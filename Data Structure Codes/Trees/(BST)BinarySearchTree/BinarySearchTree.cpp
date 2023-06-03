@@ -51,7 +51,7 @@ Node *BST::findMin(Node *root) {
     else if(root -> left == nullptr)
         return root;
     else
-        findMin(root -> left);
+        return findMin(root -> left);
 }
 
 Node *BST::findMax(Node *root) {
@@ -60,7 +60,7 @@ Node *BST::findMax(Node *root) {
     else if(root -> right == nullptr)
         return root;
     else
-        findMax(root -> right);
+        return findMax(root -> right);
 }
 
 Node *BST::Delete(Node *r, int key) {
