@@ -149,6 +149,7 @@ template<typename elementType>
 bool SingleLinkedList<elementType>::isItemAtEqual(elementType element, int index) {
     if(index <0 || index>length){
         cout<<"out of range!";
+        return elementType();
     }else{
         Node* current = first;
         for (int i = 0; i < index; ++i) {

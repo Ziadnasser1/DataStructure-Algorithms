@@ -20,6 +20,7 @@
         "${workspaceFolder}\\Trees\\AVLTree\\avltree.cpp",
         "${workspaceFolder}\\Trees\\MaxHeap\\maxheap.cpp",
         "${workspaceFolder}\\Trees\\MinHeap\\minheap.cpp",
+        "${workspaceFolder}\\Trees\\MinHeap\\minheap.cpp",
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe"
       ],
