@@ -1,5 +1,5 @@
 #include <chrono>
-#include "SortingAlgorithms.h"
+#include "SortingAlgorithms.cpp"
 using namespace std;
 
 int main() {

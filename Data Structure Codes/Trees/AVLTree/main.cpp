@@ -1,4 +1,5 @@
 #include "AVLTree.h"
+#include "AVLTREE.cpp"
 
 int main() {
     AVLTree tree;
